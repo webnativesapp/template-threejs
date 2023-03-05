@@ -1,21 +1,5 @@
-# Template > ThreeJs
-
-Ready to go [ThreeJS](https://threejs.org/docs/#manual/en/introduction/Creating-a-scene) project.
-#### External dependencies.
-- Scripts
-> https://unpkg.com/three@0.139.2/build/three.min.js
-
-#### Folder structure
-- 📁/root
-    - 📁/logic *all your app logic should be here*
-    - 📁/ui *all your user interface logic should be here*
-        - 📁/schemas *auto generated JSON schemas from the [WYSIWYG Editor](#wysiwyg)*
-        - 🗎 Bootstrap.js
-        - 🗎 App.js *__entry file__*
-    - 📁/workers *__advanced__: place and register your service workers here*
-
-### To start just modify the src/ui/App.js file.
-```
+var namespace = 'App';
+//----------------------------------------------------------------------------------------------------------------------
 class App {
 
   constructor() {
@@ -68,8 +52,6 @@ class App {
     });
   }
 }
-```
-#### Find the live demo [here](https://webnatives.app/templates).
-
----------------------------
-© 2023 WebNatives
+//----------------------------------------------------------------------------------------------------------------------
+exports = App;
+//--------------------------------------------------------------------------------------------------------------------EOF
